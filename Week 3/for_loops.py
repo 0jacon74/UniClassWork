@@ -6,3 +6,4 @@ for i in range(int(mountains)):
     print ("*picture of a mountain*")
 
 print("Done!")
+
