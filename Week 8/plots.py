@@ -1,13 +1,28 @@
 import matplotlib.pyplot as plt
 
-def display_line(x,y):
-    plt.plot(x,y)
+##def display_line(x,y):
+##    plt.plot(x,y)
+##    plt.show()
+
+##def run_task1():
+##    x_values = [1,2,3,4,5]
+##    y_values = [1,4,9,16,25]
+##    display_line(x_values,y_values)
+
+
+##run_task1()
+
+def small():
+    x = [3,4,4,3,3]
+    y = [3,3,4,4,3]
+    plt.plot(x,y, 'ro--')
     plt.show()
 
-def run_task1():
-    x_values = [1,2,3,4,5]
-    y_values = [1,4,9,16,25]
-    display_line(x_values,y_values)
+def medium():
+    x = [2,5,5,2,2]
+    y = [2,2,5,5,2]
+    plt.plot(x,y, 'gs--')
 
 
-run_task1()
+small()
+medium()
