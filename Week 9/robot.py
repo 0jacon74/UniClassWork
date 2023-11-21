@@ -14,3 +14,12 @@ class Robot:
 
     def display(self):
         print(f"I am {self.name}")
+
+    def grow(self):
+        self.age = self.age + 1
+
+    def eat(self, amount, max=MAX_ENERGY):
+        if self.energy < max:
+            self.energy = self.energy + amount
+            if self.energy > max:
+                self.energy = max
